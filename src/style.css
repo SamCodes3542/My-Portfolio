@@ -1,0 +1,346 @@
+:root {
+  --primary-color: rgb(119, 53, 64);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(245, 173, 173, 0.952);
+}
+
+body {
+  font-family: "Aref Ruqaa Ink", serif;
+  background-attachment: fixed;
+  margin: 0px auto;
+  background-image: linear-gradient(to top right, #f1cc9b, brown);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h2,
+h3 {
+  text-align: center !important;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Courgette", cursive;
+  font-size: 76px;
+  text-align: center !important;
+  margin: 45px;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center !important;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center !important;
+}
+
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 5px;
+}
+
+footer {
+  position: relative;
+  bottom: 15px;
+  left: 10px;
+  padding-top: 120px;
+  font-weight: bolder;
+}
+.contact-list {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+.workpage-pics {
+  box-shadow: #5f4627 10px 10px 10px 10px;
+}
+
+.linkedin-link,
+.facebook-link,
+.instagram-link,
+.email-link {
+  text-decoration: none;
+}
+
+.collab-info,
+.collab-button {
+  text-align: center;
+}
+
+.collab-info {
+  font-size: 30px;
+  padding-top: 170px;
+}
+
+.collab-email {
+  text-decoration: none;
+  text-align: center;
+}
+
+.current-projects-link {
+  border: 2px solid black;
+  box-shadow: 2px 4px rgb(240, 162, 162);
+  color: #ad4d52;
+  background-color: #ad4d52;
+  border-radius: 80%;
+  width: 190px;
+  height: 100px;
+}
+
+.current-projects-button {
+  text-align: center;
+}
+.img-thumbnail {
+  background-color: #ad4d52;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.my-photo {
+  width: 270px;
+  text-align: center;
+}
+
+.about-me,
+.contact-title {
+  font-family: "Courgette", cursive;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.about-me-intro {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.projects-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ebb181;
+}
+
+.projects-link:hover {
+  color: black;
+}
+
+.contact-link,
+.about-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--secondary-color);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a:hover {
+  color: #b3ada5;
+}
+
+.navigation-links a {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fad7a9;
+}
+
+.app-titles {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Courgette", cursive;
+  font-weight: bolder;
+}
+.app-link,
+.collab-email {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin-top: 7px;
+}
+
+.collab-button {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: #f1cc9b;
+  font: 1rem;
+}
+
+.navbar-toggler {
+  color: #f1cc9b;
+}
+
+.navbar-brand {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-right: 1rem;
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #f1cc9b;
+}
+
+.animation {
+  display: grid;
+  position: fixed;
+  top: 70px;
+  right: 25px;
+  min-height: 100vh;
+}
+
+.circle {
+  position: relative;
+  left: 1320px;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: black;
+  animation: anim 10s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.2 em;
+  transform-origin: 0 100px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.code-title,
+.name {
+  color: brown;
+  text-decoration: none;
+}
+
+.name:hover {
+  text-decoration: underline;
+  color: rgb(1, 15, 15);
+}
+
+.code-title:hover {
+  text-decoration: underline;
+  color: rgb(1, 15, 15);
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.img-thumbnail {
+  border: 24px;
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    padding-top: 120px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  img {
+    display: block;
+  }
+  footer {
+    text-align: center;
+  }
+  .about-me {
+    padding-top: 180px;
+  }
+  .circle {
+    display: block;
+  }
+  .paragraphs,
+  .app-titles,
+  .app-link {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navigation-links a {
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: center;
+  }
+
+  .navbar-brand {
+    margin-left: 4rem;
+  }
+
+  .app-link {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+}
