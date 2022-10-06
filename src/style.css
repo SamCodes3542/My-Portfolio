@@ -70,6 +70,11 @@ footer {
 .instagram-link,
 .email-link {
   text-decoration: none;
+  color: black;
+}
+.fa-brands .fa-instagram,
+.fa-brands .fa-square-facebook {
+  color: blue;
 }
 
 .collab-info,
@@ -289,7 +294,7 @@ footer {
   border: 24px;
   color: gray;
 }
-@media (max-width: 100px) {
+@media (max-width: 0px) {
   .my-work-pics {
     display: block;
     text-align: center;
@@ -308,6 +313,9 @@ footer {
 
   h3 {
     font-size: 18px;
+  }
+  img {
+    display: none;
   }
 
   footer {
