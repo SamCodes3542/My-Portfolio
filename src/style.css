@@ -289,6 +289,12 @@ footer {
   border: 24px;
   color: gray;
 }
+@media (max-width: 100px) {
+  .my-work-pics {
+    display: block;
+    text-align: center;
+  }
+}
 
 @media (max-width: 600px) {
   h1 {
@@ -304,12 +310,11 @@ footer {
     font-size: 18px;
   }
 
-  img {
-    display: block;
-  }
   footer {
     text-align: center;
+    font-size: 15px;
   }
+
   .about-me {
     padding-top: 180px;
   }
